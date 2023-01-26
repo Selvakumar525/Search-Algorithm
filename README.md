@@ -19,13 +19,27 @@ To write a program to perform linear search and binary search using python progr
 ## Program:
 i)	#Use a linear search method to match the item in a list.
 ```
-
+''' 
+Program to find the maximum marks using the list method max().
+Developed by: selva kumar A
+RegisterNumber: 22009007
+'''
+def max_marks(marks):
+    large = max(marks)
+    return large
 
 
 ```
 ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
-
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: selva kumar A
+RegisterNumber:22009007
+'''
+def max_marks(marks):
+    large = max(marks)
+    return large
 
 
 
@@ -33,6 +47,14 @@ ii)	# Find the element in a list using Binary Search(Iterative Method).
 ```
 iii)	# Find the element in a list using Binary Search (recursive Method).
 ```
+''' 
+Program to the maximum marks without using builtin functions.
+Developed by: selva kumar A
+RegisterNumber: 22009007
+'''
+def max_marks(marks):
+    large = max(marks)
+    return large
 
 
 
@@ -40,6 +62,9 @@ iii)	# Find the element in a list using Binary Search (recursive Method).
 
 ```
 ## Sample Input and Output
+1)![list of numbers1](https://user-images.githubusercontent.com/120643262/214905478-8c377fe3-7779-41b6-a1f0-80e1cab67fc6.png)
+2)![list of numbers 2](https://user-images.githubusercontent.com/120643262/214905706-1d0ff0c2-e8a9-41a4-bd01-a7d2e10a06b7.png)
+3)![list of numbers 3](https://user-images.githubusercontent.com/120643262/214905780-0b834892-5e29-4034-82b4-6adc42847741.png)
 
 
 
