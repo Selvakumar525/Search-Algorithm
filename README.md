@@ -17,44 +17,56 @@ To write a program to perform linear search and binary search using python progr
 5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
-i)	#Use a linear search method to match the item in a list.
-```
-''' 
-Program to find the maximum marks using the list method max().
-Developed by: selva kumar A
-RegisterNumber: 22009007
-'''
-def max_marks(marks):
-    large = max(marks)
-    return large
+i) #Use a linear search method to match the item in a list.
 
 
-```
-ii)	# Find the element in a list using Binary Search(Iterative Method).
-```
-''' 
-Program to the maximum marks without using builtin functions.
-Developed by: selva kumar A
-RegisterNumber:22009007
-'''
-def max_marks(marks):
-    large = max(marks)
-    return large
+    for i in range(0, n):
+        if (array [i] == k):
+            return i
+    return -1
+
+array = eval(input())
+k =  eval(input())
+n = len(array)
+array.sort()
+result = linearsearch(array, n, k)
+if(result == -1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ", result)
 
 
 
+ii) # Find the element in a list using Binary Search(Iterative Method). ``def linearsearch(array, n, k):
 
-```
+for i in range(0, n):
+    if (array [i] == k):
+        return i
+return -1
+array = eval(input()) k = eval(input()) n = len(array) array.sort() result = linearsearch(array, n, k) if(result == -1): print(array) print("Element not found") else: print(array) print("Element found at index: ", result)
+
 iii)	# Find the element in a list using Binary Search (recursive Method).
-```
-''' 
-Program to the maximum marks without using builtin functions.
-Developed by: selva kumar A
-RegisterNumber: 22009007
-'''
-def max_marks(marks):
-    large = max(marks)
-    return large
+```def linearsearch(array, n, k):
+
+    for i in range(0, n):
+        if (array [i] == k):
+            return i
+    return -1
+
+array = eval(input())
+k =  eval(input())
+n = len(array)
+array.sort()
+result = linearsearch(array, n, k)
+if(result == -1):
+    print(array)
+    print("Element not found")
+else:
+    print(array)
+    print("Element found at index: ", result)
+
 
 
 
