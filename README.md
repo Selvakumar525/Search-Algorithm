@@ -74,9 +74,11 @@ else:
 
 ```
 ## Sample Input and Output
-1)![list of numbers1](https://user-images.githubusercontent.com/120643262/214905478-8c377fe3-7779-41b6-a1f0-80e1cab67fc6.png)
-2)![list of numbers 2](https://user-images.githubusercontent.com/120643262/214905706-1d0ff0c2-e8a9-41a4-bd01-a7d2e10a06b7.png)
-3)![list of numbers 3](https://user-images.githubusercontent.com/120643262/214905780-0b834892-5e29-4034-82b4-6adc42847741.png)
+1)![prog 1](https://user-images.githubusercontent.com/120643262/215003519-d153e5d4-11a3-4f3a-91dd-5bcc22531814.png)
+2)![prog2](https://user-images.githubusercontent.com/120643262/215003559-5f625053-d57b-4da1-a629-6654f1a7c3c7.png)
+3)![prog3](https://user-images.githubusercontent.com/120643262/215003592-a2da0778-1133-40c7-916e-6d3c739df1b9.png)
+
+
 
 
 
